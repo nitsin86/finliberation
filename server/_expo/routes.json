@@ -1,0 +1,96 @@
+{
+  "apiRoutes": [
+    {
+      "file": "_expo\\functions\\calc_years+api.js",
+      "page": "/calc_years",
+      "namedRegex": "^/calc_years(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo\\functions\\send_feedback+api.js",
+      "page": "/send_feedback",
+      "namedRegex": "^/send_feedback(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "htmlRoutes": [
+    {
+      "file": "./(tabs)/index.tsx",
+      "page": "/(tabs)/index",
+      "namedRegex": "^(?:/\\(tabs\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./Main.tsx",
+      "page": "/Main",
+      "namedRegex": "^/Main(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/Guide.tsx",
+      "page": "/(tabs)/Guide",
+      "namedRegex": "^(?:/\\(tabs\\))?/Guide(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./OnSubmit.tsx",
+      "page": "/OnSubmit",
+      "namedRegex": "^/OnSubmit(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/FeedbackForm.tsx",
+      "page": "/(tabs)/FeedbackForm",
+      "namedRegex": "^(?:/\\(tabs\\))?/FeedbackForm(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./ChildrenDetails/ChildSection.tsx",
+      "page": "/ChildrenDetails/ChildSection",
+      "namedRegex": "^/ChildrenDetails/ChildSection(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./PropertyAndTaxSection/TaxSection.tsx",
+      "page": "/PropertyAndTaxSection/TaxSection",
+      "namedRegex": "^/PropertyAndTaxSection/TaxSection(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./PropertyAndTaxSection/NewProperty.tsx",
+      "page": "/PropertyAndTaxSection/NewProperty",
+      "namedRegex": "^/PropertyAndTaxSection/NewProperty(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./PropertyAndTaxSection/HasProperty.tsx",
+      "page": "/PropertyAndTaxSection/HasProperty",
+      "namedRegex": "^/PropertyAndTaxSection/HasProperty(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./PropertyAndTaxSection/PropertyAndTax.tsx",
+      "page": "/PropertyAndTaxSection/PropertyAndTax",
+      "namedRegex": "^/PropertyAndTaxSection/PropertyAndTax(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "expo-router/build/views/Unmatched.js",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      },
+      "generated": true
+    }
+  ]
+}
